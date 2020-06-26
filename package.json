@@ -1,8 +1,11 @@
 {
   "name": "webrtc",
   "version": "1.0.0",
-  "main": "chatserver.js",
+  "main": "server.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
   
   "dependencies": {
     "minimist": "1.2.3",
