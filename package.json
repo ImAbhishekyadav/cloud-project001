@@ -1,0 +1,16 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "main": "chatserver.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run lite",
+    "lite": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "websocket": "^1.0.31"
+  }
+}
